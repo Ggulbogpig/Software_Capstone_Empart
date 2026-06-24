@@ -1,0 +1,2 @@
+region_id,affordance,acd_granularity,xmin,ymin,zmin,xmax,ymax,zmax,maxConvexHulls,acdThreshold
+5,lift,0.8,-0.53737,0.25947,-0.09529,0.49780,0.99706,0.08982,128,0.0001

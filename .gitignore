@@ -58,3 +58,9 @@ test_error.log
 
 # Blender external binaries
 tools/interactive-viewer/blender-*/
+# Blender external binaries / archives
+tools/interactive-viewer/blender-*/
+tools/interactive-viewer/*.tar.xz
+*.tar.xz
+*.zip
+*.7z
