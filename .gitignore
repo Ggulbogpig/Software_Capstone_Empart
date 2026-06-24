@@ -6,6 +6,10 @@ __pycache__/
 # Auto-populated models dir
 tools/interactive-viewer/public/models/*
 
+# Blender / external viewer binaries
+tools/interactive-viewer/blender-4.5.1-linux-x64/
+tools/interactive-viewer/blender-*/
+
 # Large 3D files
 *.obj
 *.glb
@@ -38,3 +42,19 @@ tmp/
 # OS
 .DS_Store
 Thumbs.db
+
+
+# Environment files
+.env
+**/.env
+
+# Logs / debug outputs
+*.log
+*_debug.txt
+global_debug.txt
+cli_stderr.log
+lift_cli_err.log
+test_error.log
+
+# Blender external binaries
+tools/interactive-viewer/blender-*/
