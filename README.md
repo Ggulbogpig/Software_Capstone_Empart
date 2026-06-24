@@ -1,3 +1,15 @@
+## 관련 레포지토리
+
+본 레포지토리는 전체 프로젝트 중 **어포던스 기반 Adaptive Convex Decomposition 파트**를 구현한 레포지토리입니다.
+
+본 레포지토리에서 사용하는 affordance prediction 및 전처리 결과는 아래 레포지토리에서 생성됩니다.
+
+* **3D Affordance Inference Pipeline**: [Software_Capstone](https://github.com/Ggulbogpig/Software_Capstone)
+
+전체 파이프라인에서 `Software_Capstone` 레포지토리는 3D 객체로부터 point-level 및 face-level affordance label을 추론하는 역할을 수행합니다.
+이후 본 `Software_Capstone_Empart` 레포지토리는  산출한 영역별 ACD granularity를반으로, Empart ACD / V-HACD 기반의 interaction-aware convex decomposition을 수행합니다.
+
+
 ## 실행 흐름 및 주요 코드 역할
 
 본 레포지토리는 affordance inference 결과를 입력으로 받아, Empart ACD 기반의 영역별 convex decomposition을 수행하기 위한 실험 코드와 실행 스크립트를 포함합니다.
